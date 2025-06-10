@@ -26,6 +26,7 @@
 	--body-color: hsl(250, 60%, 99%);
 	--container-color: #fff;
 
+	
 	/*========== Font and typography ==========*/
 	/*.5rem = 8px | 1rem = 16px ...*/
 	--body-font: "Poppins", sans-serif;
@@ -87,7 +88,7 @@ body {
 	margin: 0 0 var(--header-height);
 	font-family: var(--body-font);
 	font-size: var(--normal-font-size);
-	background-color: var(--body-color);
+	background: var(--body-color);
 	color: var(--text-color);
 	transition: background 0.4s; /* for dark mode animation */
 }
@@ -409,6 +410,7 @@ body.dark-theme {
 	position: absolute;
 	/*right: -1rem;*/
 	row-gap: 2.5rem;
+	left: 0%;
 }
 
 .home__social-follow {
