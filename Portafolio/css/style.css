@@ -114,11 +114,6 @@ button {
 	outline: none;
 }
 
-img {
-	max-width: 100%;
-	height: auto;
-}
-
 /*=============== Button Dark/Light THEME ===============*/
 .nav__buttons {
 	display: flex;
@@ -340,48 +335,33 @@ body.dark-theme {
 }
 
 /*Active menu*/
-
+/*===== GENERAL =====*/
+.zone-general
 /*===== HOME =====*/
-/* .home {
-	display: flex;
-	width: 100vw;
-	height: 100vh;
-	align-items: center;
-	justify-content: center;
-} */
-
-.home__container {
-	gap: 1rem;
-	/* width: 400px;
-	height: 450px;
-	padding: 20px;
-	display: inline-block;
-	position: relative;
-	background-color: white;
-	text-align: center;
-	border-radius: 40px;
-	border: 5px solid white;
-	box-shadow: 5px 10px 50px #0d007e65; */
+.home__img{
+	margin: 0 54%;
 }
-
+.home__container {
+	text-align: center;
+	transition: 0.4s;
+	border-radius: 40px 40px 0 0;
+}
 .home__content {
 	grid-template-columns: 0.5fr 3fr;
-	padding-top: 3.5rem;
+	padding-top: 2rem;
 	align-items: center;
+	border-radius: 40px;
+	border: 3px solid white;
+	box-shadow: 5px 10px 50px #0d007e65;
+	transition: 0.4s;
 }
-
 .home__handle {
-	width: 55%;
+	width: 180px !important;
 	border-radius: 50%;
-	border: 5px solid white;
-	z-index: 20;
-	margin: auto 2.5rem;
-	/* display: block;
-	position: absolute; */
 }
-
 .home__data {
 	grid-column: 1/3;
+	padding: 8px;
 }
 .home__name {
 	font-size: 2rem;
@@ -395,7 +375,8 @@ body.dark-theme {
 }
 
 .home__description {
-	margin-bottom: 2rem;
+	margin-top: 3rem;
+	margin-bottom: 1rem;
 }
 
 /*===== REDES SOCIALES =====*/
@@ -425,9 +406,10 @@ body.dark-theme {
 	background-color: var(--first-color);
 	color: var(--body-color);
 	padding: 1rem;
+	margin-bottom: 0.5rem;
 	border-radius: 0.5rem;
 	font-weight: var(--font-medium);
-	/* transition: 0.4s; */
+	transition: 0.4s;
 }
 .button:hover {
 	background-color: var(--first-color-alt);
