@@ -24,7 +24,7 @@
 	--text-color-light: hsl(250, 8%, 65%);
 	--input-color: hsl(var(--hue-color), 70%, 96%);
 	--body-color: hsl(250, 60%, 99%);
-	--container-color: #fff;
+	--container-color: #f0f0f0;
 
 	
 	/*========== Font and typography ==========*/
@@ -336,7 +336,11 @@ body.dark-theme {
 
 /*Active menu*/
 /*===== GENERAL =====*/
-.zone-general
+.zone-general{
+	margin-top: 4.5rem;
+	gap: 50px;
+	display: flex;
+}
 /*===== HOME =====*/
 .home__img{
 	margin: 0 54%;
@@ -351,7 +355,6 @@ body.dark-theme {
 	padding-top: 2rem;
 	align-items: center;
 	border-radius: 40px;
-	border: 3px solid white;
 	box-shadow: 5px 10px 50px #0d007e65;
 	transition: 0.4s;
 }
@@ -433,6 +436,15 @@ body.dark-theme {
 }
 
 /* ===== ABOUT =====*/
+.about__content{
+	width: 400px;
+	grid-template-columns: 0.5fr 3fr;
+	padding-top: 2rem;
+	align-items: center;
+	border-radius: 40px;
+	box-shadow: 5px 10px 50px #0d007e65;
+	transition: 0.4s;
+}
 .about__img {
 	width: 300px;
 	border-radius: 1.5rem;
@@ -441,10 +453,6 @@ body.dark-theme {
 }
 .about__container {
 	row-gap: 2.5rem;
-}
-.about__description {
-	margin-bottom: 1.5rem;
-	text-align: justify;
 }
 
 .about__buttons {
