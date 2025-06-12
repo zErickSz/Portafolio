@@ -23,12 +23,11 @@
 	--text-color: hsl(250, 8%, 45%);
 	--text-color-light: hsl(250, 8%, 65%);
 	--input-color: hsl(var(--hue-color), 70%, 96%);
-	--body-color: hsl(250, 60%, 99%);
-	--container-color: #f0f0f0;
+	--body-color: hsl(0, 0%, 98%);
+	--container-color: #ffffff;
 
 	
-	/*========== Font and typography ==========*/
-	/*.5rem = 8px | 1rem = 16px ...*/
+	/*========== Fuentes ==========*/
 	--body-font: "Poppins", sans-serif;
 	--title-font: "Lora", serif;
 	--biggest-font-size: 2rem;
@@ -219,6 +218,7 @@ body.dark-theme {
 }
 
 .section__subtitle {
+	font-weight: bolder;
 	display: block;
 	font-size: var(--small-font-size);
 	margin-bottom: 3rem;
@@ -338,8 +338,9 @@ body.dark-theme {
 /*===== GENERAL =====*/
 .zone-general{
 	margin-top: 4.5rem;
-	gap: 50px;
+	gap: 100px;
 	display: flex;
+	justify-content: center;
 }
 /*===== HOME =====*/
 .home__img{
@@ -355,7 +356,7 @@ body.dark-theme {
 	padding-top: 2rem;
 	align-items: center;
 	border-radius: 40px;
-	box-shadow: 5px 10px 50px #0d007e65;
+	box-shadow: 5px 10px 50px #00000038;
 	transition: 0.4s;
 }
 .home__handle {
@@ -378,7 +379,7 @@ body.dark-theme {
 }
 
 .home__description {
-	margin-top: 3rem;
+	margin-top: 3.5rem;
 	margin-bottom: 1rem;
 }
 
@@ -408,7 +409,8 @@ body.dark-theme {
 	display: inline-block;
 	background-color: var(--first-color);
 	color: var(--body-color);
-	padding: 1rem;
+	padding: 0.8rem;
+	margin: 0.3rem;
 	margin-bottom: 0.5rem;
 	border-radius: 0.5rem;
 	font-weight: var(--font-medium);
@@ -441,27 +443,19 @@ body.dark-theme {
 	grid-template-columns: 0.5fr 3fr;
 	padding-top: 2rem;
 	align-items: center;
-	border-radius: 40px;
-	box-shadow: 5px 10px 50px #0d007e65;
 	transition: 0.4s;
-}
-.about__img {
-	width: 300px;
-	border-radius: 1.5rem;
-	margin: 0 auto;
-	justify-self: center;
 }
 .about__container {
 	row-gap: 2.5rem;
+	transition: 0.4s;
 }
-
-.about__buttons {
-	display: flex;
-	justify-content: center;
+.description{
+	text-align: center;
+	padding: 0.5rem;
 }
 .section__title {
-	margin-top: 3rem;
-	margin-bottom: 1rem;
+	margin-top: 7rem;
+	margin-bottom: 0.1rem;
 }
 
 /* ===== SKILLS =====*/
@@ -474,6 +468,7 @@ body.dark-theme {
 	background-color: var(--container-color);
 	padding: 1.5rem;
 	border-radius: 1.25rem;
+	border: 0.5px dashed black;
 }
 
 /*Skill title*/
