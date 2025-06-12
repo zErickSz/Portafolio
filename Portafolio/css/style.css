@@ -337,7 +337,7 @@ body.dark-theme {
 /*Active menu*/
 /*===== GENERAL =====*/
 .zone-general{
-	margin-top: 4.5rem;
+	margin-top: 5.5rem;
 	gap: 100px;
 	display: flex;
 	justify-content: center;
@@ -356,7 +356,7 @@ body.dark-theme {
 	padding-top: 2rem;
 	align-items: center;
 	border-radius: 40px;
-	box-shadow: 5px 10px 50px #00000038;
+	box-shadow: 5px 10px 50px #3d006127;
 	transition: 0.4s;
 }
 .home__handle {
@@ -411,7 +411,7 @@ body.dark-theme {
 	color: var(--body-color);
 	padding: 0.8rem;
 	margin: 0.3rem;
-	margin-bottom: 0.5rem;
+	margin-bottom: 1.5rem;
 	border-radius: 0.5rem;
 	font-weight: var(--font-medium);
 	transition: 0.4s;
@@ -454,8 +454,10 @@ body.dark-theme {
 	padding: 0.5rem;
 }
 .section__title {
-	margin-top: 7rem;
 	margin-bottom: 0.1rem;
+}
+.section__title2{
+	margin-top: 7rem;
 }
 
 /* ===== SKILLS =====*/
@@ -468,7 +470,6 @@ body.dark-theme {
 	background-color: var(--container-color);
 	padding: 1.5rem;
 	border-radius: 1.25rem;
-	border: 0.5px dashed black;
 }
 
 /*Skill title*/
