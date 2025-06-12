@@ -749,12 +749,14 @@ body.dark-theme {
 	display: grid;
 	gap: 1rem;
 }
-
 .contact__card {
 	background-color: var(--container-color);
 	padding: 1rem;
 	border-radius: 0.75rem;
 	text-align: center;
+}
+.contact__card:hover{
+	background-color: rgb(233, 233, 233);
 }
 
 .contact__card-icon {
