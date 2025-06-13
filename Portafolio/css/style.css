@@ -148,6 +148,9 @@ body.dark-theme {
 .dark-theme .logito{
 	filter: invert(1);
 }
+.dark-theme .logito-2{
+	filter: invert(1);
+}
 .dark-theme .home__social-link {
 	color: var(--title-color);
 }
@@ -338,6 +341,7 @@ body.dark-theme {
 	gap: 100px;
 	display: flex;
 	justify-content: center;
+	transition: 0.5s;
 }
 /*===== HOME =====*/
 .home__img{
@@ -354,7 +358,6 @@ body.dark-theme {
 	align-items: center;
 	border-radius: 40px;
 	box-shadow: 5px 10px 50px #3d006127;
-	transition: 0.4s;
 }
 .home__handle {
 	width: 180px !important;
@@ -665,7 +668,7 @@ body.dark-theme {
 }
 
 .project__img {
-	width: 150px;
+	width: 80px;
 	justify-self: center;
 	margin-bottom: 1rem;
 }
