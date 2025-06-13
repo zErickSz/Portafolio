@@ -846,7 +846,7 @@ body.dark-theme {
 }
 .contact__form-area textarea {
 	resize: none;
-}
+}	
 /* ===== FOOTER =====*/
 .footer {
 	background-color: var(--first-color);
