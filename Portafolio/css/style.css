@@ -847,31 +847,6 @@ body.dark-theme {
 .contact__form-area textarea {
 	resize: none;
 }
-
-/* .contact__form .button {
-	border: none;
-	background: none;
-	color: black;
-	font-size: var(--h2-font-size);
-	font-family: var(--title-font);
-	font-weight: var(--font-semi-bold);
-	cursor: pointer;
-	outline: none;
-	margin-top: 0.75rem;
-}
-
-.contact__form .button i {
-	font-size: 1.5rem;
-	font-weight: initial;
-} */
-
-/* .contact__message {
-	font-size: var(--small-font-size);
-	position: absolute;
-	bottom: 2.8rem;
-	left: 1.5rem;
-} */
-
 /* ===== FOOTER =====*/
 .footer {
 	background-color: var(--first-color);
