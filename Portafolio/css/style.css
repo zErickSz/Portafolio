@@ -148,9 +148,6 @@ body.dark-theme {
 .dark-theme .logito{
 	filter: invert(1);
 }
-.dark-theme .logito-2{
-	filter: invert(1);
-}
 .dark-theme .home__social-link {
 	color: var(--title-color);
 }
