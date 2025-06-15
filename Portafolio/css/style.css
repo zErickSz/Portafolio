@@ -130,55 +130,8 @@ button {
 	color: var(--first-color);
 }
 /*========== Variables Dark theme ==========*/
-body.dark-theme {
-	--title-color: hsl(250, 8%, 95%);
-	--text-color: hsl(250, 8%, 75%);
-	--input-color: hsl(250, 29%, 16%);
-	--body-color: hsl(250, 28%, 12%);
-	--container-color: hsl(250, 29%, 16%);
-}
 
 /*========== Color changes in some parts of the website, in light theme ==========*/
-.dark-theme .nav,
-.dark-theme .nav__menu,
-.dark-theme .scrollup {
-	background-color: var(--container-color);
-	box-shadow: 0 4px 20px hsla(207, 24%, 8%, 0.4);
-}
-.dark-theme .logito{
-	filter: invert(1);
-}
-.dark-theme .home__social-link {
-	color: var(--title-color);
-}
-
-.dark-theme::-webkit-scrollbar {
-	background-color: hsl(207, 4%, 15%);
-}
-
-.dark-theme::-webkit-scrollbar-thumb {
-	background-color: hsl(207, 4%, 25%);
-}
-
-.dark-theme::-webkit-scrollbar-thumb:hover {
-	background-color: hsl(207, 4%, 35%);
-}
-
-.dark-theme .home__container {
-	background-color: var(--container-color);
-}
-.dark-theme .home__social-link:hover {
-	color: #255fff
-}
-
-.dark-theme .home__button {
-	border: 2px solid rgb(107, 209, 170);
-	color: white;
-}
-
-.dark-theme .contact__form .button {
-	color: white;
-}
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
@@ -316,9 +269,6 @@ body.dark-theme {
 }
 
 /*Show menu */
-.show-menu {
-	bottom: 0;
-}
 
 /*=== Active Link ===*/
 .active-link {
@@ -327,9 +277,6 @@ body.dark-theme {
 }
 
 /*change backgroun header*/
-.scroll-header {
-	box-shadow: 0 4px 4px hsla(0, 0%, 4%, 0.3);
-}
 
 /*Active menu*/
 /*===== GENERAL =====*/
@@ -381,14 +328,6 @@ body.dark-theme {
 }
 
 /*===== REDES SOCIALES =====*/
-.home__social {
-	display: grid;
-	justify-items: center;
-	position: absolute;
-	/*right: -1rem;*/
-	row-gap: 2.5rem;
-	left: 0%;
-}
 
 
 .home__social-link {
@@ -439,10 +378,6 @@ body.dark-theme {
 	grid-template-columns: 0.5fr 3fr;
 	padding-top: 2rem;
 	align-items: center;
-	transition: 0.4s;
-}
-.about__container {
-	row-gap: 2.5rem;
 	transition: 0.4s;
 }
 .description{
@@ -627,19 +562,6 @@ body.dark-theme {
 	margin-bottom: 4rem;
 }
 
-.projects__container .swiper-pagination-bullets {
-	bottom: 0;
-}
-
-.projects__container .swiper-pagination-bullet {
-	background-color: var(--text-color-light);
-	opacity: initial;
-}
-
-.projects__container .swiper-pagination-bullet-active {
-	background-color: var(--title-color);
-}
-
 /*=============== PROJECT IN MIND===============*/
 .project {
 	text-align: center;
@@ -664,78 +586,9 @@ body.dark-theme {
 	color: #fff;
 }
 
-.project__img {
-	width: 80px;
-	justify-self: center;
-	margin-bottom: 1rem;
-}
-
 /* ===== TESTIMONIAL =====*/
-.testimonial {
-	position: relative;
-}
-
-.testimonial__content {
-	text-align: center;
-}
-
-.testimonial__description {
-	font-family: var(--body-font);
-	color: var(--title-color);
-	margin-bottom: 1.5rem;
-}
-
-.testimonial__name {
-	font-family: var(--body-font);
-	font-size: var(--small-font-size);
-	margin-bottom: 0.25rem;
-}
-
-.testimonial__subtitle {
-	font-size: var(--smaller-font-size);
-	color: var(--text-color-light);
-}
-
-.testimonial__img {
-	width: 70px;
-	transform: rotate(30deg);
-	position: absolute;
-	top: 5rem;
-	right: -1.5rem;
-	opacity: 0.1;
-}
 
 /*Swiper class*/
-.testimonial__container .swiper-slide {
-	margin-bottom: 4rem;
-}
-
-.testimonial__container .swiper-button-prev::after,
-.testimonial__container .swiper-button-next::after {
-	content: "";
-}
-
-.testimonial__container .swiper-button-prev,
-.testimonial__container .swiper-button-next {
-	font-size: 2rem;
-	color: var(--title-color);
-	width: initial;
-	height: initial;
-	top: initial;
-	bottom: 0.5rem;
-}
-
-.testimonial__container .swiper-button-prev {
-	left: calc(50% - 3rem);
-}
-.testimonial__container .swiper-button-next {
-	right: calc(50% - 3rem);
-}
-
-.testimonial__container .swiper-button-disabled {
-	opacity: initial;
-	color: var(--text-color-light);
-}
 
 /* ===== CONTACT =====*/
 
@@ -762,9 +615,6 @@ body.dark-theme {
 .contact__card:hover{
 	background-color: #fffff6d2;
 }
-.dark-theme .contact__card:hover{
-	background-color: #3f4268;
-}
 
 .contact__card-icon {
 	font-size: 2rem;
@@ -772,18 +622,12 @@ body.dark-theme {
 	margin-bottom: 0.25rem;
 }
 
-.contact__card-title,
-.contact__card-data {
+.contact__card-title {
 	font-size: var(--small-font-size);
 }
 
 .contact__card-title {
 	font-weight: var(--font-medium);
-}
-
-.contact__card-data {
-	display: block;
-	margin-bottom: 0.75rem;
 }
 
 .contact__button {
@@ -956,9 +800,6 @@ body.dark-theme {
 }
 
 /* Show Scroll up*/
-.show-scroll {
-	bottom: 7.5rem;
-}
 
 /* ===== MEDIA QUERIES=====*/
 /*For small devices*/
@@ -997,15 +838,8 @@ body.dark-theme {
 	}
 
 	/*===== REDES SOCIALES =====*/
-	.home__social {
-		column-gap: 0.5rem;
-	}
 
 	/*BUTTONS*/
-	.home__button {
-		background-color: transparent;
-		margin-bottom: 0.6rem;
-	}
 
 	.skills__info {
 		grid-template-columns: repeat(2, 1fr);
@@ -1042,19 +876,8 @@ body.dark-theme {
 	}
 
 	/*===== REDES SOCIALES =====*/
-	.home__social {
-		column-gap: 0.4rem;
-		margin: 5px;
-	}
 
 	/*BUTTONS*/
-	.home__buttons {
-		margin-top: 2.5rem;
-	}
-
-	.home__button {
-		margin-right: 1rem;
-	}
 	.nav,
 	.nav__menu {
 		width: 380px;
@@ -1064,16 +887,11 @@ body.dark-theme {
 		margin: 0 auto;
 	}
 
-	.about__description {
-		padding: 0 5rem;
-	}
-
 	.skills__container {
 		justify-content: center;
 	}
 
-	.projects__container,
-	.testimonial__container {
+	.projects__container {
 		width: 400px;
 	}
 
@@ -1113,16 +931,8 @@ body.dark-theme {
 	}
 
 	/*===== REDES SOCIALES =====*/
-	.home__social {
-		column-gap: 0.4rem;
-		margin: 0.5rem;
-	}
 	.home__social-link {
 		font-size: 2rem;
-	}
-
-	.about__image {
-		width: 50%;
 	}
 
 	.skills__container,
@@ -1153,8 +963,7 @@ body.dark-theme {
 		font-size: 2.2rem;
 	}
 
-	.contact__card-title,
-	.contact__card-data {
+	.contact__card-title {
 		font-size: var(--normal-font-size);
 	}
 
@@ -1208,12 +1017,6 @@ body.dark-theme {
 	.nav__logo {
 		font-size: 1.2rem;
 	}
-
-	.dark-theme .nav,
-	.dark-theme .nav__menu {
-		background-color: var(--body-color);
-		box-shadow: none;
-	}
 	.change-theme {
 		color: var(--text-color-light);
 	}
@@ -1244,84 +1047,23 @@ body.dark-theme {
 	}
 
 	/*===== REDES SOCIALES =====*/
-	.home__social {
-		column-gap: 0.4rem;
-		margin: 0.5rem;
-	}
 	.home__social-link {
 		font-size: 1.5rem;
 	}
 
-	.home__social::after {
-		transform: rotate(90deg) translate(16px, 0);
-	}
-
 	/*BUTTONS*/
-	.home__buttons {
-		margin-top: 5rem;
-	}
-
-	.home__button {
-		margin-right: 1.2rem;
-	}
 
 	.scrollup {
 		right: 3rem;
 	}
 
-	.show-scroll {
-		bottom: 5rem;
-	}
-
 	/*Change background header*/
-	.bg-header {
-		box-shadow: 0 4px 20px hsla(219, 24%, 35%, 0.1);
-	}
-	.dark-theme .bg-header {
-		box-shadow: 0 6px 24px hsla(219, 24%, 8%, 0.6);
-	}
-	.dark-theme .nav__logo {
-		color: rgb(255, 255, 255);
-	}
 
 	/*ABOUT*/
-	.about__container {
-		grid-template-columns: repeat(2, 1fr);
-		align-items: center;
-		column-gap: 4rem;
-	}
-	.about__img {
-		width: 350px;
-	}
-	.about__info {
-		justify-content: initial;
-	}
-	.about__description {
-		padding: 0 4rem 0 0;
-		margin-bottom: 2.5rem;
-	}
 
 	/*SKILLS*/
 
 	/*PROJECTS*/
-
-	.work__container {
-		gap: 3rem;
-	}
-	.work__card {
-		padding: 1.25rem;
-	}
-	.work__img {
-		width: 450px;
-		margin-bottom: 1rem;
-	}
-	.work__title {
-		margin-bottom: 0.5rem;
-	}
-
-	.contact__text {
-		width: 70%;
-	}
 	.contact__info {
 		grid-template-columns: repeat(2, 1fr);
 		column-gap: 4rem;
@@ -1332,11 +1074,6 @@ body.dark-theme {
 		font-size: 1.25rem;
 		padding: 0.4rem;
 		border-radius: 0.5rem;
-	}
-	.about__txt,
-	.skills__txt,
-	.contact__text {
-		font-size: 1.3rem;
 	}
 }
 
@@ -1390,27 +1127,6 @@ body.dark-theme {
 	}
 	.projects__img {
 		width: 320px;
-		margin-bottom: 2rem;
-	}
-
-	.testimonial__container {
-		width: 566px;
-	}
-	.testimonial__container .swiper-button-prev,
-	.testimonial__container .swiper-button-next {
-		font-size: 2.5rem;
-	}
-	.testimonial__container .swiper-button-prev {
-		left: calc(50% - 5rem);
-	}
-	.testimonial__container .swiper-button-next {
-		right: calc(50% - 5rem);
-	}
-	.testimonial__container .swiper-slide {
-		margin-bottom: 6rem;
-	}
-	.testimonial__description {
-		font-size: var(--h2-font-size);
 		margin-bottom: 2rem;
 	}
 
