@@ -2,7 +2,7 @@
 
 :root {
   --header-height: 3.5rem;
-  --first-color: #4a47a3;
+  --first-color: #4a47a3c2;
   --first-color-alt: #2e2b75;
   --container-dark: #303030;
   --title-color: #1a1a1a;
@@ -129,21 +129,12 @@ body.dark-theme {
   transform: translateY(20px);
   transition: all 0.6s ease;
 }
+#about, #skills, #projects, #contact{
+  
+scroll-margin-top: 100px; /* Ajusta el valor según lo que necesites */
 
-/*==================== CONTACT FORM ====================*/
-#contact-form input,
-#contact-form textarea {
-  background-color: var(--container-color);
-  border: 1px solid #ccc;
-  color: inherit;
 }
 
-#contact-form input:focus,
-#contact-form textarea:focus {
-  border-color: var(--first-color);
-  box-shadow: 0 0 0 0.2rem rgba(74, 71, 163, 0.25);
-  outline: none;
-}
 
 /*==================== TOGGLE MENU BUTTON ====================*/
 #nav-toggle {
@@ -278,16 +269,19 @@ body.dark-theme i {
 
 
 /* CLASES MAS PROPIAS */
+main{
+  margin-top: 5.8rem;
+}
 .zone-general{
   display: flex;
   justify-content: center;
   margin: 1rem;
-  margin-top: 5%;
   gap: 2rem;
 }
 .text-sub{
   color: #5c5c5c;
 }
+/* ================================= */
 /* HEADER */
 .logito{
   width: 180px;
@@ -296,6 +290,7 @@ body.dark-theme i {
   font-size: 20px;
   cursor:  pointer;
 }
+/* ================================= */
 /* HOME */
 .box-me{
   max-width: 25rem;
@@ -316,11 +311,13 @@ body.dark-theme i {
   margin-top: 2rem;
   border-bottom: 1px solid #000;
 }
+/* ================================= */
 /*ABOUT*/
 .box-about-me{
   max-width: 33rem;
   width: 100%;
 }
+/* ================================= */
 /*SKILLS*/
 .skill-icon{
   width: 50px;
@@ -336,6 +333,7 @@ body.dark-theme i {
 .skill-blob:hover img {
   transform: translateY(-6px);
 }
+/* ================================= */
 /*PROJECTS*/
 
 .projects__container {
@@ -430,4 +428,35 @@ body.dark-theme i {
 .projects__container .swiper-button-next::after {
   display: none;
 }
-/**/
+/* ================================= */
+/* CONTACT */
+.box-contact-primary{
+  display: flex;
+  gap: 1.5rem;
+}
+.box-contact{
+  width: 100%;
+  max-width: 150px;
+  border-radius: 0.5rem;
+  box-shadow: 5px 5px 15px #0000001c;
+}
+
+/* Enlace Contacto */
+.link-contact a {
+ display: inline-flex;
+ align-items: center;
+ gap: 0.3rem;
+ text-decoration: none;
+}
+
+.link-contact a i {
+ transition: transform 0.4s ease;
+}
+
+.link-contact a:hover i {
+ transform: translateX(6px);
+}
+
+.link-contact{
+  color: #138840 !important;
+}
