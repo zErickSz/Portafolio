@@ -24,60 +24,54 @@
 
 <body>
   <!-- HEADER -->
-  <header id="header" class="fixed-top bg-light shadow-sm py-3">
-    <div class="container container-bg d-flex justify-content-between align-items-center">
-      <a href="#" class="d-flex align-items-center">
-        <img src="assets/img/logito.png" alt="Logo" class="logito">
-      </a>
-      <nav class="d-none d-lg-flex gap-4">
-        <a href="#about" class="nav__link">Sobre mí</a>
-        <a href="#skills" class="nav__link">Habilidades</a>
-        <a href="#projects" class="nav__link">Proyectos</a>
-        <a href="#contact" class="nav__link">Contacto</a>
-		<div>
-			<a
-						class="nav-social nav__link"
-						target="_blank"
-						href="https://www.linkedin.com/in/ericksz/"
-					><i class="bx bxl-linkedin"></i>
-					</a>
-					<a
-						class="nav-social nav__link"
-						target="_blank"
-						href="https://www.instagram.com/erick.tsk/"
-						><i class="bx bxl-instagram"></i>
-					</a>
-					<a
-						class="nav-social nav__link"
-						target="_blank"
-						href="https://github.com/zErickSz"
-						><i class="bx bxl-github"></i>
-			</a>
-		</div>
-      </nav>
+<header id="header" class="fixed-top bg-light shadow-sm py-3">
+  <div class="container container-bg d-flex justify-content-between align-items-center">
+    <!-- Logo -->
+    <a href="#" class="d-flex align-items-center">
+      <img src="assets/img/logito.png" alt="Logo" class="logito">
+    </a>
 
-<div class="d-flex align-items-center gap-3">
-  <!-- Botón de modo oscuro -->
-  <i class="bx bx-moon change-theme" id="theme-button"></i>
+    <!-- Navegación en desktop -->
+    <nav class="d-none d-lg-flex gap-4 align-items-center">
+      <a href="#about" class="nav__link">Sobre mí</a>
+      <a href="#skills" class="nav__link">Habilidades</a>
+      <a href="#projects" class="nav__link">Proyectos</a>
+      <a href="#contact" class="nav__link">Contacto</a>
+      <div class="d-flex gap-2">
+        <a class="nav-social nav__link" target="_blank" href="https://www.linkedin.com/in/ericksz/"><i class="bx bxl-linkedin"></i></a>
+        <a class="nav-social nav__link" target="_blank" href="https://www.instagram.com/erick.tsk/"><i class="bx bxl-instagram"></i></a>
+        <a class="nav-social nav__link" target="_blank" href="https://github.com/zErickSz"><i class="bx bxl-github"></i></a>
+      </div>
+    </nav>
 
-  <!-- Botón toggle para móviles -->
-  <button class="btn btn-outline-dark d-lg-none navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-    <i class="bx bx-menu"></i>
-  </button>
-</div>
+    <!-- Botón modo oscuro + hamburguesa -->
+    <div class="d-flex align-items-center gap-3">
+      <!-- Tema -->
+      <i class="bx bx-moon change-theme" id="theme-button"></i>
 
-<!-- Menú colapsable (fuera del div anterior) -->
-<div class="collapse navbar-collapse justify-content-between" id="navbarNav">
-  <ul class="navbar-nav gap-3">
-    <li class="nav-item"><a class="nav-link" href="#about">Sobre mí</a></li>
-    <li class="nav-item"><a class="nav-link" href="#skills">Habilidades</a></li>
-    <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
-    <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
-  </ul>
-</div>
-
+      <!-- Botón toggle (solo en mobile) -->
+      <button class="btn d-lg-none navbar-toggler mx-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <i class="bx bx-menu"></i>
+      </button>
     </div>
-  </header>
+  </div>
+
+  <!-- Menú colapsable móvil -->
+  <div class="collapse navbar-collapse bg-light shadow-sm d-lg-none" id="navbarNav">
+    <ul class="navbar-nav px-3 py-2">
+      <li class="nav-item my-1"><a class="nav__link" href="#about">Sobre mí</a></li>
+      <li class="nav-item my-1"><a class="nav__link" href="#skills">Habilidades</a></li>
+      <li class="nav-item my-1"><a class="nav__link" href="#projects">Proyectos</a></li>
+      <li class="nav-item my-1"><a class="nav__link" href="#contact">Contacto</a></li>
+      <li class="nav-item my-1">
+        <a class="nav-social nav__link" target="_blank" href="https://www.linkedin.com/in/ericksz/"><i class="bx bxl-linkedin"></i></a>
+        <a class="nav-social nav__link" target="_blank" href="https://www.instagram.com/erick.tsk/"><i class="bx bxl-instagram"></i></a>
+        <a class="nav-social nav__link" target="_blank" href="https://github.com/zErickSz"><i class="bx bxl-github"></i></a>
+      </li>
+    </ul>
+  </div>
+</header>
+
 <main>
   <!-- HOME -->
    <div class="zone-general d-flex flex-column flex-md-row align-items-center align-items-md-start gap-3">
@@ -277,22 +271,22 @@
       <h2 class="mb-3">¿Tienes un proyecto en mente?</h2>
       <p>Contáctame para desarrollar soluciones digitales personalizadas y efectivas.</p>
     </div>
-    <div class="box-contact-primary justify-content-center my-5">
-      <div class="box-contact bg-white p-3 text-center">
+    <div class="row g-4 box-contact-primary justify-content-center my-5">
+      <div class="col-md-4 col-lg-3 col-sm-6 box-contact bg-white p-3 text-center">
         <i class="bi bi-envelope-plus fs-3"></i>
         <h3 class="fs-5 my-2">Email</h3>
         <div class="link-contact justify-content-center">
            <a href="mailto:erick-sua@hotmail.com" target="_blank" class="fs-6">Escríbeme <i class="bi bi-arrow-right-circle icon-box-contact fs-6"></i></a>
         </div>
       </div>
-      <div class="box-contact bg-white p-3 text-center">
+      <div class="col-md-4 col-lg-3 col-sm-6 box-contact bg-white p-3 text-center">
         <i class="bi bi-telegram fs-3"></i>
         <h3 class="fs-5 my-2">Telegram</h3>
         <div class="link-contact justify-content-center">
            <a href="https://t.me/zErickSHz" target="_blank" class="fs-6">Escríbeme <i class="bi bi-arrow-right-circle icon-box-contact fs-6"></i></a>
         </div>
       </div>
-      <div class="box-contact bg-white p-3 text-center">
+      <div class="col-md-4 col-lg-3 col-sm-6 box-contact bg-white p-3 text-center">
         <i class="bi bi-whatsapp fs-3"></i>
         <h3 class="fs-5 my-2">WhatsApp</h3>
         <div class="link-contact justify-content-center">
