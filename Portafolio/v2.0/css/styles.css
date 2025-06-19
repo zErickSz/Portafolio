@@ -55,7 +55,7 @@ section {
 
 /*==================== DARK THEME ====================*/
 body.dark-theme {
-  --body-color: #3f3b49;
+  --body-color: #40355a;
   --text-color: #f1f1f1;
   --container-color: #242526;
   --title-color: #fff;
