@@ -54,6 +54,13 @@ También demuestra manejo de diseño visual, interactividad básica y enfoque en
 
 ---
 
+### 📜 Licencia
+
+Este proyecto está bajo la Licencia MIT © 2025 Erick Sua.  
+Puedes ver el archivo [LICENSE](./LICENSE) para más detalles.
+
+---
+
 <br/><br/><br/>
 
 ---
@@ -112,5 +119,12 @@ It also demonstrates my attention to visual design, user interaction, and overal
 📧 erick-sua@hotmail.com  
 💼 LinkedIn: [linkedin.com/in/ericksz](https://www.linkedin.com/in/ericksz)  
 🌐 Live: *(check deployed portfolio)*
+
+---
+
+### 📜 License
+
+This project is licensed under the MIT License © 2025 Erick Sua.  
+You can view the full license in the [LICENSE](./LICENSE) file.
 
 ---
