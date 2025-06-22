@@ -58,7 +58,7 @@ section {
 
 /*==================== DARK THEME ====================*/
 body.dark-theme {
-  --body-color: #40355a;
+  --body-color: #242547;
   --text-color: #f1f1f1;
   --container-color: #242526;
   --title-color: #fff;
@@ -134,7 +134,7 @@ body.dark-theme {
 }
 #about, #skills, #projects, #contact{
   
-scroll-margin-top: 100px; /* Ajusta el valor según lo que necesites */
+scroll-margin-top: 100px; 
 
 }
 
@@ -391,7 +391,7 @@ main{
   margin-bottom: 1.25rem;
 }
 
-/* Botones Swiper */
+/* Botones Swiper 
 .swpr-btns{
   display: flex;
   gap: 1.5rem ;
@@ -431,6 +431,7 @@ main{
 .projects__container .swiper-button-next::after {
   display: none;
 }
+*/
 /* ================================= */
 /* CONTACT */
 .box-contact-primary{
