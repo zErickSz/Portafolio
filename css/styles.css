@@ -17,7 +17,7 @@
 *::before,
 *::after {
   /*box-sizing: border-box;*/
-   margin: 0;
+  margin: 0;
   padding: 0;
 }
 
@@ -58,10 +58,26 @@ section {
 
 /*==================== DARK THEME ====================*/
 body.dark-theme {
-  --body-color: #242547;
+  --body-color: #111222;
   --text-color: #f1f1f1;
   --container-color: #242526;
   --title-color: #fff;
+}
+body.dark-theme::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../assets/img/pngwing.com.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: blur(8.5px);
+  opacity: 0.1; 
+  z-index: -1;
+  pointer-events: none;
 }
 
 /*==================== HEADER ====================*/
@@ -463,4 +479,15 @@ main{
 
 .link-contact{
   color: #138840 !important;
+}
+/* ============ ANIMATIONS GENERAL ================= */
+.fade-in-on-scroll {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
