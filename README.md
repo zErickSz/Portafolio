@@ -41,7 +41,7 @@ También demuestra manejo de diseño visual, interactividad básica y enfoque en
 
 ---
 
-<img align="right" src="https://imgflip.com/gif/9y3hie" height="150" alt="fun gif"/>
+<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" height="150" alt="fun gif"/>
 
 ---
 
