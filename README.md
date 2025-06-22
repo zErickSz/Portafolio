@@ -1,4 +1,4 @@
-<h2 align="left">Hola <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" height="30" alt="sparkle gif"/>, soy Erick Sua </h2>
+<h2 align="left">Hola <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" height="30" alt="gif"/>, soy Erick Sua <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2Q3eWkyeHl3YWc1cHFyMXNzeDJzMDJzZnY4MmFzMG4xMWZxazB6eCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/h0Cq1ClzO3UpupFPjP/giphy.gif" height="30" alt="sparkle gif"/> </h2>
 
 <p align="left">
 Soy un desarrollador web enfocado en construir interfaces limpias, funcionales y modernas.<br/>
@@ -102,7 +102,7 @@ It also demonstrates my attention to visual design, user interaction, and overal
 
 ---
 
-<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" height="169" style="border-radius: 15px;" alt="coding gif" />
+<img align="right" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjhzdHpsYmY1OWxtdThjcDZmdG1qZ3hyOGR1bjhobWJsODNvYmk5OCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/78XCFBGOlS6keY1Bil/giphy.gif" height="169" style="border-radius: 15px;" alt="coding gif" />
 
 ---
 
