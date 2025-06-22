@@ -1,11 +1,13 @@
 <h2 align="left">Hola 👋, soy Erick Sua</h2>
 
-<p align="left">💻 Desarrollador Web en formación, apasionado por construir interfaces modernas, limpias y funcionales. <br/>
-🌟 Este repositorio contiene mi portafolio personal hecho con tecnologías web básicas y herramientas como Bootstrap.</p>
+<p align="left">
+Soy un desarrollador web enfocado en construir interfaces limpias, funcionales y modernas.<br/>
+Este portafolio fue desarrollado con tecnologías frontend como HTML5, CSS3, JavaScript y Bootstrap, e incluye funciones dinámicas como modo oscuro y diseño totalmente responsivo.
+</p>
 
 ---
 
-### 🛠️ Tecnologías que utilicé:
+### 🛠️ Tecnologías utilizadas:
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="HTML5 logo"/>
@@ -19,30 +21,23 @@
 
 ---
 
-### 📄 Descripción del proyecto
+### 📄 Descripción general
 
-Este es un portafolio web **responsivo** desarrollado con **HTML**, **CSS**, **JavaScript** y **Bootstrap**, que me permite presentar mi perfil como desarrollador, proyectos realizados, habilidades técnicas y formas de contacto.
+Este es un portafolio web creado con el propósito de presentar de forma clara y estructurada mis conocimientos, habilidades y proyectos como desarrollador frontend.  
+Incluye:
 
-Contiene:
 - 🧑‍💼 Sección "Sobre mí"
-- 🛠️ Habilidades técnicas
-- 🧪 Proyectos destacados
-- ✉️ Formulario de contacto
-- 🌙 Modo oscuro
+- 🛠️ Tecnologías y herramientas que manejo
+- 💼 Proyectos realizados
+- 🌙 Modo claro/oscuro
+- 📬 Opciones de contacto
 
 ---
 
-### 🚀 ¿Cómo verlo?
+### 🎯 Enfoque del proyecto
 
-Puedes abrir el archivo `index.html` directamente o verlo en línea si lo tienes desplegado:
-
-🔗 [Ver el portafolio en línea](https://tu-usuario.github.io/tu-repo/) *(reemplaza con tu link real)*
-
----
-
-### 🎯 Objetivo
-
-Este proyecto me ayuda a fortalecer mis conocimientos en maquetación, diseño web y estructura semántica, preparándome para trabajar en proyectos más complejos con herramientas como React, Tailwind y más.
+Este portafolio refleja mi capacidad para desarrollar interfaces modernas y adaptables, implementando buenas prácticas de maquetación y diseño responsivo.  
+También demuestra manejo de diseño visual, interactividad básica y enfoque en experiencia de usuario.
 
 ---
 
@@ -52,9 +47,8 @@ Este proyecto me ayuda a fortalecer mis conocimientos en maquetación, diseño w
 
 ### 📬 Contacto
 
-📧 ericksua0@gmail.com  
-💼 LinkedIn: [linkedin.com/in/tu-nombre](https://linkedin.com) *(si lo tienes)*  
-🌐 Web personal: en este mismo portafolio 😉
+📧 erick-sua@hotmail.com  
+💼 LinkedIn: [linkedin.com/in/ericksz](https://www.linkedin.com/in/ericksz)  
+🌐 Web: *(ver este mismo portafolio desplegado)*
 
 ---
-
