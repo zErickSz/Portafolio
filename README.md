@@ -1,4 +1,4 @@
-<h2 align="left">Hola 👋, soy Erick Sua <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" height="30" alt="sparkle gif"/></h2>
+<h2 align="left">Hola <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" height="30" alt="sparkle gif"/>, soy Erick Sua </h2>
 
 <p align="left">
 Soy un desarrollador web enfocado en construir interfaces limpias, funcionales y modernas.<br/>
