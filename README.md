@@ -1,4 +1,4 @@
-<h2 align="left">Hola 👋, soy Erick Sua <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmxiYTJ4dnpnYnptbmZlZGk4ZmgzOWR0NWozZjAxOTZsZXFxZm9xbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nDmTGama5e9ZH6mlT3/giphy.gif" height="30" alt="sparkle gif"/></h2>
+<h2 align="left">Hola 👋, soy Erick Sua <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" height="30" alt="sparkle gif"/></h2>
 
 <p align="left">
 Soy un desarrollador web enfocado en construir interfaces limpias, funcionales y modernas.<br/>
@@ -41,7 +41,7 @@ También demuestra manejo de diseño visual, interactividad básica y enfoque en
 
 ---
 
-<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" height="169" style="border-radius: 50px;" alt="coding gif" />
+<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" height="169" style="border-radius: 15px;" alt="coding gif" />
 
 ---
 
@@ -59,7 +59,7 @@ También demuestra manejo de diseño visual, interactividad básica y enfoque en
 
 ## 🌍 English Version
 
-<h2 align="left">Hi 👋, I'm Erick Sua <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmxiYTJ4dnpnYnptbmZlZGk4ZmgzOWR0NWozZjAxOTZsZXFxZm9xbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nDmTGama5e9ZH6mlT3/giphy.gif" height="30" alt="sparkle gif"/></h2>
+<h2 align="left">Hi 👋, I'm Erick Sua <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" height="30" alt="sparkle gif"/></h2>
 
 <p align="left">
 I’m a frontend web developer focused on building clean, functional, and modern interfaces.<br/>
@@ -99,6 +99,10 @@ It includes:
 
 This portfolio showcases my ability to build modern and adaptable interfaces, following best practices in semantic structure and responsive design.  
 It also demonstrates my attention to visual design, user interaction, and overall UX.
+
+---
+
+<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" height="169" style="border-radius: 15px;" alt="coding gif" />
 
 ---
 
