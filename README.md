@@ -60,7 +60,7 @@ También demuestra manejo de diseño visual, interactividad básica y enfoque en
 
 ## 🌍 English Version
 
-<h2 align="left">Hi 👋, I'm Erick Sua <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" height="30" alt="sparkle gif"/></h2>
+<h2 align="left">Hi! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" height="30" alt="gif"/>, I'm Erick Sua <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmxiYTJ4dnpnYnptbmZlZGk4ZmgzOWR0NWozZjAxOTZsZXFxZm9xbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nDmTGama5e9ZH6mlT3/giphy.gif" height="30" alt="sparkle gif"/> <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2Q3eWkyeHl3YWc1cHFyMXNzeDJzMDJzZnY4MmFzMG4xMWZxazB6eCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/h0Cq1ClzO3UpupFPjP/giphy.gif" height="30" alt="gif"/> </h2>
 
 <p align="left">
 I’m a frontend web developer focused on building clean, functional, and modern interfaces.<br/>
