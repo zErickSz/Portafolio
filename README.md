@@ -56,6 +56,8 @@ También demuestra manejo de diseño visual, interactividad básica y enfoque en
 
 ### 📜 Licencia
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 Este proyecto está bajo la Licencia MIT © 2025 Erick Sua.  
 Puedes ver el archivo [LICENSE](./LICENSE) para más detalles.
 
