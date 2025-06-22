@@ -1,9 +1,9 @@
 <h2 align="left">Hola <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" height="30" alt="gif"/>, soy Erick Sua <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmxiYTJ4dnpnYnptbmZlZGk4ZmgzOWR0NWozZjAxOTZsZXFxZm9xbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nDmTGama5e9ZH6mlT3/giphy.gif" height="30" alt="sparkle gif"/> </h2>
-https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2Q3eWkyeHl3YWc1cHFyMXNzeDJzMDJzZnY4MmFzMG4xMWZxazB6eCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/h0Cq1ClzO3UpupFPjP/giphy.gif
+
 
 <p align="left">
 Soy un desarrollador web enfocado en construir interfaces limpias, funcionales y modernas.<br/>
-Este portafolio fue desarrollado con tecnologías frontend como HTML5, CSS3, JavaScript y Bootstrap, e incluye funciones dinámicas como modo oscuro y diseño totalmente responsivo.
+Este portafolio fue desarrollado con tecnologías frontend como HTML5, CSS3, JavaScript y Bootstrap, e incluye funciones dinámicas como modo oscuro y diseño totalmente responsivo. <img src="[https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2Q3eWkyeHl3YWc1cHFyMXNzeDJzMDJzZnY4MmFzMG4xMWZxazB6eCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/h0Cq1ClzO3UpupFPjP/giphy.gif)" height="30" alt="gif"/>
 </p>
 
 ---
