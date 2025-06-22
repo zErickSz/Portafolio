@@ -41,7 +41,7 @@ También demuestra manejo de diseño visual, interactividad básica y enfoque en
 
 ---
 
-<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" height="169" style="border-radius: 15px;" alt="coding gif" />
+<img align="right" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjhzdHpsYmY1OWxtdThjcDZmdG1qZ3hyOGR1bjhobWJsODNvYmk5OCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/78XCFBGOlS6keY1Bil/giphy.gif" height="169" style="border-radius: 15px;" alt="coding gif" />
 
 ---
 
