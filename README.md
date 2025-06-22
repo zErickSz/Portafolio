@@ -28,7 +28,7 @@ Contiene:
 - 🛠️ Habilidades técnicas
 - 🧪 Proyectos destacados
 - ✉️ Formulario de contacto
-- 🌙 Modo oscuro (si lo incluiste)
+- 🌙 Modo oscuro
 
 ---
 
