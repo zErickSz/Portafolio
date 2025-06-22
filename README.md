@@ -1,4 +1,4 @@
-<h2 align="left">Hola 👋, soy Erick Sua</h2>
+<h2 align="left">Hola 👋, soy Erick Sua <img src="https://media.giphy.com/media/l0HlQ7LRalFjX4TqI/giphy.gif" height="30" alt="sparkle gif"/></h2>
 
 <p align="left">
 Soy un desarrollador web enfocado en construir interfaces limpias, funcionales y modernas.<br/>
@@ -41,7 +41,7 @@ También demuestra manejo de diseño visual, interactividad básica y enfoque en
 
 ---
 
-<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" height="169" alt="work gif"/>
+<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" height="169" alt="coding gif"/>
 
 ---
 
@@ -50,5 +50,62 @@ También demuestra manejo de diseño visual, interactividad básica y enfoque en
 📧 erick-sua@hotmail.com  
 💼 LinkedIn: [linkedin.com/in/ericksz](https://www.linkedin.com/in/ericksz)  
 🌐 Web: *(ver este mismo portafolio desplegado)*
+
+---
+
+<br/><br/><br/>
+
+---
+
+## 🌍 English Version
+
+<h2 align="left">Hi 👋, I'm Erick Sua <img src="https://media.giphy.com/media/l0HlQ7LRalFjX4TqI/giphy.gif" height="30" alt="sparkle gif"/></h2>
+
+<p align="left">
+I’m a frontend web developer focused on building clean, functional, and modern interfaces.<br/>
+This portfolio was developed using frontend technologies such as HTML5, CSS3, JavaScript, and Bootstrap. It includes dynamic features like a dark/light mode and a fully responsive design.
+</p>
+
+---
+
+### 🛠️ Technologies used:
+
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="HTML5 logo"/>
+  <img width="10"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="CSS3 logo"/>
+  <img width="10"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="JavaScript logo"/>
+  <img width="10"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="40" alt="Bootstrap logo"/>
+</div>
+
+---
+
+### 📄 Project Overview
+
+This is a personal web portfolio designed to present my skills, background, and projects as a frontend developer in a clear and organized way.  
+It includes:
+
+- 🧑‍💼 About Me section  
+- 🛠️ Tools and technologies I use  
+- 💼 Featured projects  
+- 🌙 Dark/Light mode  
+- 📬 Contact options  
+
+---
+
+### 🎯 Project Focus
+
+This portfolio showcases my ability to build modern and adaptable interfaces, following best practices in semantic structure and responsive design.  
+It also demonstrates my attention to visual design, user interaction, and overall UX.
+
+---
+
+### 📬 Contact
+
+📧 erick-sua@hotmail.com  
+💼 LinkedIn: [linkedin.com/in/ericksz](https://www.linkedin.com/in/ericksz)  
+🌐 Live: *(check deployed portfolio)*
 
 ---
