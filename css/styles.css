@@ -74,7 +74,7 @@ body.dark-theme::before {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  filter: blur(8.5px);
+  filter: blur(2.5px);
   opacity: 0.1; 
   z-index: -1;
   pointer-events: none;
